@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  phpaskell:
+    container_name: phpaskell
+    image: phpaskell
+    build: .
+    entrypoint: sh
+    tty: true
+    volumes:
+    - ./:/opt

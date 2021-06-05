@@ -1,0 +1,21 @@
+{
+    "name": "leocavalcante/phpaskell",
+    "description": "Trying to implement Category Theory concepts to understand Haskell.",
+    "type": "project",
+    "require": {
+        "vimeo/psalm": "^4.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
